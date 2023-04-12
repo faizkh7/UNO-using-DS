@@ -1,0 +1,18 @@
+1. Initialise immutable tuples for card colour and rank. Define dictionary for card types.
+2. Input choice for AI type 
+3. Call Deck() to create stack “deck”. Randomise it using shuffle method in Python random library
+4. Call Hand() to create “player_hand” of cards. Pop 7 from deck and push into player_hand
+5. Pop a singular card to make “top_card”. Check constraint to eliminate special card
+6. Randomise who plays first turn - player or PC
+
+7. If player’s turn:
+8. Check if card count == 1 and last card == special card ... then automatically pop from deck and add to player_hand
+9. Input choice —> hit or pull
+10. If pull... then pop from deck and add to player_card
+11. If hit... then input index from player. Check whether card is legal (single_card_check). Pop card and assign to top_card
+12. Check for special cards and execute corresponding functionalities - mention all
+
+13. If AI’s turn:
+14. Check if AI has a playable card —> full_hand_check. 
+15. If yes: Pop and play it as top_card. Check for special cards and execute corresponding functionalities 
+16. Else: pull from deck
